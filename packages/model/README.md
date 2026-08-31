@@ -1,5 +1,5 @@
-# @roads-ai/model
+# @trestle/model
 
-Roads AI model scaffold.
+Trestle model scaffold.
 
 Exports an async default `run` stub and can execute directly as a script.

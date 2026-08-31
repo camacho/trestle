@@ -8,7 +8,10 @@ import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescrip
 
 export default tseslint.config(
   {
-    ignores: ['**/dist/**', '**/node_modules/**'],
+    // Spike artifacts are immutable evidence run inside a separate pi clone
+    // (see each spike README); they import that clone's packages, which this
+    // repo intentionally does not declare.
+    ignores: ['**/dist/**', '**/node_modules/**', 'docs/rfc-001/spikes/**'],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

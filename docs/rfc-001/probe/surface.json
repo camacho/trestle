@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "provisional",
+  "languages": ["JavaScript", "TypeScript", "PHP"],
+  "runtimes": ["Node.js", "browser"],
+  "technologies": ["HTML", "CSS", "WebGL"],
+  "frameworks": [],
+  "project_size_envelope": {
+    "status": "unconfirmed",
+    "description": "small learner projects"
+  },
+  "source": {
+    "author": "Patrick Camacho",
+    "channel": "roads-rfc-001",
+    "date": "2026-07-23"
+  },
+  "confirmation_needed": "A leader from the Organization confirms cohort frameworks and typical project sizes before the check-1 case set freezes."
+}

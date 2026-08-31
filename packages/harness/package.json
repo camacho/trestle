@@ -1,7 +1,7 @@
 {
-  "name": "@roads-ai/harness",
+  "name": "@trestle/harness",
   "version": "0.0.0",
-  "description": "Roads AI harness executable scaffold",
+  "description": "Trestle harness executable scaffold",
   "license": "UNLICENSED",
   "private": true,
   "engines": {

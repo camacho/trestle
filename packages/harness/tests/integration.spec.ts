@@ -6,7 +6,7 @@ import { describe, expect, it } from 'vitest';
 
 const execFileAsync = promisify(execFile);
 
-describe('@roads-ai/harness integration', () => {
+describe('@trestle/harness integration', () => {
   it('runs the source entrypoint as a script', async () => {
     const scriptPath = fileURLToPath(
       new URL('../src/index.ts', import.meta.url),

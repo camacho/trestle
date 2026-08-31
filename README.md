@@ -1,10 +1,10 @@
-# Roads AI
+# Trestle
 
-Roads AI is a local-first scaffold for an educational programming system built from:
+Trestle is a local-first scaffold for an educational programming system built from:
 
 - an open-source model hosted behind a local server
 - an open-source harness installed on a local device
-- a minimal TypeScript monorepo intended to evolve through the RFC in [docs/rfc-001.md](./docs/rfc-001.md)
+- a minimal TypeScript monorepo intended to evolve through the RFC in [docs/rfc-001/README.md](./docs/rfc-001/README.md)
 
 The current scaffold keeps the package behavior intentionally small. Both workspace packages expose an async `run` stub and can execute directly as scripts after build output is made executable.
 
@@ -12,8 +12,8 @@ The current scaffold keeps the package behavior intentionally small. Both worksp
 
 <!-- AUTO-GENERATED-CONTENT:START (SUBPACKAGELIST:verbose=true) -->
 
-- [@roads-ai/harness](packages/harness) - Roads AI harness executable scaffold
-- [@roads-ai/model](packages/model) - Roads AI model executable scaffold
+- [@trestle/harness](packages/harness) - Trestle harness executable scaffold
+- [@trestle/model](packages/model) - Trestle model executable scaffold
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
@@ -39,4 +39,4 @@ flowchart LR
 
 - `packages/harness`: executable harness stub with an async `run`
 - `packages/model`: executable model stub with an async `run`
-- `docs/rfc-001.md`: RFC outline for the real harness/model design
+- `docs/rfc-001/README.md`: RFC outline for the real harness/model design

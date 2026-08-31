@@ -1,0 +1,5 @@
+{"type":"session","version":3,"id":"019f8054-716f-79be-b091-442d1051cacc","timestamp":"2026-07-20T16:20:45.551Z","cwd":"/private/tmp/trestle/twopass-spike"}
+{"type":"model_change","id":"56b5199b","parentId":null,"timestamp":"2026-07-20T16:20:45.578Z","provider":"mock","modelId":"mock-model"}
+{"type":"thinking_level_change","id":"045e29f9","parentId":"56b5199b","timestamp":"2026-07-20T16:20:45.579Z","thinkingLevel":"off"}
+{"type":"message","id":"cf72062f","parentId":"045e29f9","timestamp":"2026-07-20T16:20:45.585Z","message":{"role":"user","content":[{"type":"text","text":"session leakage test"}],"timestamp":1784564445584}}
+{"type":"message","id":"276e5e68","parentId":"cf72062f","timestamp":"2026-07-20T16:20:45.606Z","message":{"role":"assistant","content":[{"type":"text","text":"MAIN_RESPONSE ok"}],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"stop","timestamp":1784564445590,"responseId":"x"}}

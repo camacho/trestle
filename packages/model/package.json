@@ -1,7 +1,7 @@
 {
-  "name": "@roads-ai/model",
+  "name": "@trestle/model",
   "version": "0.0.0",
-  "description": "Roads AI model executable scaffold",
+  "description": "Trestle model executable scaffold",
   "license": "UNLICENSED",
   "private": true,
   "engines": {

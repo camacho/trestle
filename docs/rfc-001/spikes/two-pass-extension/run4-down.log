@@ -1,0 +1,40 @@
+{"type":"session","version":3,"id":"019f804c-5a9e-7977-98c1-0904f08a0f16","timestamp":"2026-07-20T16:11:55.422Z","cwd":"/private/tmp/trestle/twopass-spike"}
+{"type":"agent_start"}
+{"type":"turn_start"}
+{"type":"message_start","message":{"role":"user","content":[{"type":"text","text":"down test"}],"timestamp":1784563915454}}
+{"type":"message_end","message":{"role":"user","content":[{"type":"text","text":"down test"}],"timestamp":1784563915454}}
+TWOPASS_FAILCLOSED reason=Unable to connect. Is the computer able to access the url?
+TWOPASS_OK count=0 allowed=CLARIFY
+{"type":"message_start","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563915460,"errorMessage":"Connection error."}}
+{"type":"message_end","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563915460,"errorMessage":"Connection error."}}
+{"type":"turn_end","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563915460,"errorMessage":"Connection error."},"toolResults":[]}
+{"type":"agent_end","messages":[{"role":"user","content":[{"type":"text","text":"down test"}],"timestamp":1784563915454},{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563915460,"errorMessage":"Connection error."}],"willRetry":true}
+{"type":"auto_retry_start","attempt":1,"maxAttempts":3,"delayMs":2000,"errorMessage":"Connection error."}
+{"type":"agent_start"}
+{"type":"turn_start"}
+TWOPASS_FAILCLOSED reason=Unable to connect. Is the computer able to access the url?
+TWOPASS_OK count=0 allowed=CLARIFY
+{"type":"message_start","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563917472,"errorMessage":"Connection error."}}
+{"type":"message_end","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563917472,"errorMessage":"Connection error."}}
+{"type":"turn_end","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563917472,"errorMessage":"Connection error."},"toolResults":[]}
+{"type":"agent_end","messages":[{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563917472,"errorMessage":"Connection error."}],"willRetry":true}
+{"type":"auto_retry_start","attempt":2,"maxAttempts":3,"delayMs":4000,"errorMessage":"Connection error."}
+{"type":"agent_start"}
+{"type":"turn_start"}
+TWOPASS_FAILCLOSED reason=Unable to connect. Is the computer able to access the url?
+TWOPASS_OK count=0 allowed=CLARIFY
+{"type":"message_start","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563921478,"errorMessage":"Connection error."}}
+{"type":"message_end","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563921478,"errorMessage":"Connection error."}}
+{"type":"turn_end","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563921478,"errorMessage":"Connection error."},"toolResults":[]}
+{"type":"agent_end","messages":[{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563921478,"errorMessage":"Connection error."}],"willRetry":true}
+{"type":"auto_retry_start","attempt":3,"maxAttempts":3,"delayMs":8000,"errorMessage":"Connection error."}
+{"type":"agent_start"}
+{"type":"turn_start"}
+TWOPASS_FAILCLOSED reason=Unable to connect. Is the computer able to access the url?
+TWOPASS_OK count=0 allowed=CLARIFY
+{"type":"message_start","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563929483,"errorMessage":"Connection error."}}
+{"type":"message_end","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563929483,"errorMessage":"Connection error."}}
+{"type":"turn_end","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563929483,"errorMessage":"Connection error."},"toolResults":[]}
+{"type":"agent_end","messages":[{"role":"assistant","content":[],"api":"openai-completions","provider":"mock","model":"mock-model","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1784563929483,"errorMessage":"Connection error."}],"willRetry":false}
+{"type":"auto_retry_end","success":false,"attempt":3,"finalError":"Connection error."}
+{"type":"agent_settled"}

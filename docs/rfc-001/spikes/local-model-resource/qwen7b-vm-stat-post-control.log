@@ -1,0 +1,23 @@
+^DMach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                5830.
+Pages active:                            145966.
+Pages inactive:                          127908.
+Pages speculative:                        17273.
+Pages throttled:                              0.
+Pages wired down:                        282792.
+Pages purgeable:                            150.
+"Translation faults":               11317326488.
+Pages copy-on-write:                  542647758.
+Pages zero filled:                   5233486682.
+Pages reactivated:                     68890137.
+Pages purged:                          19527398.
+File-backed pages:                       114617.
+Anonymous pages:                         176530.
+Pages stored in compressor:             1178478.
+Pages occupied by compressor:            432671.
+Decompressions:                        92112118.
+Compressions:                         106824736.
+Pageins:                              162690322.
+Pageouts:                                522746.
+Swapins:                                 195022.
+Swapouts:                                553896.

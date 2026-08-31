@@ -2,3 +2,8 @@ coverage
 dist
 node_modules
 
+# Preserve byte-for-byte API evidence. Community ref: https://prettier.io/docs/ignore
+docs/rfc-001/spikes/local-model-resource/*.json
+
+# Self-contained authored review artifacts (non-normative; excluded from review per PR framing)
+docs/rfc-001/workspace/*.html
